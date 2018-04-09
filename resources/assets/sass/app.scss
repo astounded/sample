@@ -11,6 +11,8 @@
 
 $navbar-color: #3c3e42;
 
+
+
 /* universal */
 
 body {
@@ -171,4 +173,11 @@ input {
 
 .panel {
   margin-top: 50px;
+}
+
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
+  }
 }
